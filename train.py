@@ -8,10 +8,10 @@ from keras.callbacks import TensorBoard
 import glob
 import os
 from EDCSNN import *
-from utils.lr_controller import ReduceLROnPlateau
-from utils.data_loader import data_loader, data_loader_multi_channel
-from utils.utils import img_comp
-from utils.loss import loss_mse_ssim, loss_huber
+from lr_controller import ReduceLROnPlateau
+from data_loader import data_loader, data_loader_multi_channel
+from utils import img_comp
+from loss import loss_mse_ssim, loss_huber
 
 
 parser = argparse.ArgumentParser()

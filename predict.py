@@ -6,7 +6,7 @@ from keras import optimizers
 import imageio
 import os
 import tensorflow as tf
-from utils.utils import prctile_norm, rm_outliers
+from utils import prctile_norm, rm_outliers
 from EDCSNN import *
 
 
